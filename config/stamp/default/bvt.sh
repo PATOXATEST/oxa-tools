@@ -17,9 +17,9 @@ ENVIRONMENT=bvt
 
 # the site certificate files (.crt & .key) have to be named after the BASE_URL value
 BASE_URL=cloudswyft.com
-LMS_URL=mytest.$BASE_URL
-CMS_URL=mytestcms.$BASE_URL
-PREVIEW_URL=mytestpreview.$BASE_URL
+LMS_URL=patoxatest.$BASE_URL
+CMS_URL=patoxatestcms.$BASE_URL
+PREVIEW_URL=patoxatestpreview.$BASE_URL
 
 # deployment configuration
 # URL-building will be replaced by the use of LMS_URL | CMS_URL (above)
@@ -46,9 +46,9 @@ EDXAPP_EMAIL_TECH_SUPPORT="${PLATFORM_EMAIL}"
 EDXAPP_EMAIL_UNIVERSITY="${PLATFORM_EMAIL}"
 
 # config/versions.yml
-CONFIGURATION_REPO=https://github.com/mycstest/edx-configuration.git
+CONFIGURATION_REPO=https://github.com/patoxatest/edx-configuration.git
 CONFIGURATION_VERSION=oxa/master.fic
-PLATFORM_REPO=https://github.com/mycstest/edx-platform.git
+PLATFORM_REPO=https://github.com/patoxatest/edx-platform.git
 PLATFORM_VERSION=oxa/master.fic
 THEME_REPO=https://github.com/Microsoft/edx-theme.git
 THEME_VERSION=oxa/master.fic
